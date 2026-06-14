@@ -14,13 +14,13 @@ opciones.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Appl
 driver = webdriver.Chrome(options=opciones)
 try: 
     driver.get("https://www.google.com")
-    time.sleep(10)
+    time.sleep(5)
     caja_busqueda = driver.find_element(By.NAME, "q")
     caja_busqueda.send_keys("Helloween band")
     caja_busqueda.send_keys(Keys.ENTER)
 
-    print("Busqueda realizada con exito")
-    time.sleep(10)
+    #print("Busqueda realizada con exito")
+    time.sleep(5)
 except Exception as e:
     print(f"Ocurrió un error: {e}")
 finally:

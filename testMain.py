@@ -6,10 +6,10 @@ import time
 driver = webdriver.Chrome()
 
 #abre pagina web
-driver.get("https://www.google.com")
-time.sleep(15)
+driver.get("https://www.google.comfrd")
+time.sleep(5)
 
-print("Selenium funciona correctamente")
+#print("Selenium funciona correctamente")
 
 #cierra navegador
 driver.quit()
