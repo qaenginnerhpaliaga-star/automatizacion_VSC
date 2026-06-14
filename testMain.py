@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 
 #abre pagina web
 driver.get("https://www.google.com")
-time.sleep(10)
+time.sleep(15)
 
 print("Selenium funciona correctamente")
 
